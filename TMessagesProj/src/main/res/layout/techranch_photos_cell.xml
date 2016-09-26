@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6E6E6">
+
+        <ImageView
+            android:id="@+id/techranch_church_album_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/img_gag_tample"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/techranch_photos_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:drawableLeft="@drawable/photo_w"
+        android:text="0 photos"/>
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "37153350656",
+    "project_id": "beta-ortodoxlife-messenger"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37153350656:android:3fd4e5b58ac5c293",
+        "android_client_info": {
+          "package_name": "org.telegram.messenger.techranch.beta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD1Cio6WMbhxZuDFZBSykXHDQIl5TXIb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-84465370-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

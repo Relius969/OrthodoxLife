@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+    android:background="@drawable/pravzhizn_list_item_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/saint_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"/>
+
+</FrameLayout>

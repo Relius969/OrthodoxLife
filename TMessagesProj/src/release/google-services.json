@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "453631335860",
+    "project_id": "ortodoxlife-messenger"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453631335860:android:9eff4d10a992a760",
+        "android_client_info": {
+          "package_name": "org.telegram.messenger.techranch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQs1tbXWKfYbwYl0pGWmW03blEGL1LaaQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-84465370-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

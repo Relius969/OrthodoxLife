@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#E6E6E6">
+
+        <ImageView
+            android:id="@+id/map_place"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_temple_is_not_found"/>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/scale_up_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:background="#66000000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="35dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/ic_map_fullscreen"/>
+
+</FrameLayout>
